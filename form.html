@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="form.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Product Insertion Form </title>
+</head>
+
+<body>
+    <div class="container">
+        <header>Product</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Product Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Name</label>
+                            <input type="text" placeholder="Enter product's Display Name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Discription</label>
+                            <input type="text" placeholder="Enter small Product's Discription" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Price/KG</label>
+                            <input type="number" placeholder="Enter Product's Price" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Catagory</label>
+                            <select required>
+                                <option disabled selected>Select Product's Catagory</option>
+                                <option>Laddu</option>
+                                <option>Khoya</option>
+                                <option>Chocolates</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Availability</label>
+                            <select required>
+                                <option disabled selected>Select Product's Availability</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                                <option>Available Soon</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Best Seller</label>
+                            <select required>
+                                <option disabled selected>Product Best Seller?</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label>Product Image: </label>
+                            <input type="file" class="upload-box" placeholder="Enter Product's Catagory" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    
+                        <button class="nextBtn">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+                <script src="JS/form.js"></script>
+</body>
+
+</html>
